@@ -1,0 +1,17 @@
+{
+    "static": {
+        "debug": false
+    },
+    "build": {
+        "autoWatch": true,
+        "autoRun": true,
+        "process": {
+            "sass": {
+                "compressed": false
+            },
+            "commonjs": {
+                "uglify": false
+            }
+        }
+    }
+}

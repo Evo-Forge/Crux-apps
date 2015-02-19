@@ -1,0 +1,21 @@
+{
+    "static": {
+        "ip": "0.0.0.0",
+        "port": 3200,
+        "path": "public/"
+    },
+    "build": {
+        "process": {
+            "sass": {
+                "path": "front/sass",
+                "entry": "main.scss",
+                "output": "public/css/main.css"
+            },
+            "commonjs": {
+                "path": "front/commonjs",
+                "entry": "app.js",
+                "output": "public/js/build/app.build.js"
+            }
+        }
+    }
+}
