@@ -1,0 +1,33 @@
+{
+    "static": {
+        "ip": "0.0.0.0",
+        "port": 3200,
+        "path": "public/"
+    },
+    "build": {
+        "process": {
+            "less": {
+                "path": "front/less",
+                "entry": "main.less",
+                "output": "public/css/main.css"
+            },
+            "angular": {
+                "templates": {
+                    "module": "app.views",
+                    "extension": "html",
+                    "viewPath": "",
+                    "path": "front/app/views/",
+                    "output": "public/js/build/app.templates.js"
+                },
+                "core": {
+                    "module": "app",
+                    "path": "front/app",
+                    "entry": "app.js",
+                    "config": "config/$environment.js",
+                    "output": "public/js/build/app.angular.js",
+                    "priority": ["util.js", "controllers/"]
+                }
+            }
+        }
+    }
+}

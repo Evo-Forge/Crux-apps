@@ -1,0 +1,15 @@
+{
+    "static": {
+        "debug": false
+    },
+    "build": {
+        "autoRun": true,
+        "autoWatch": true,
+        "process": {
+            "less": {
+                "compressed": false,
+                "includes": []
+            }
+        }
+    }
+}
