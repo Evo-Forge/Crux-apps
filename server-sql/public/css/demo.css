@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+body > div {
+  margin: 10px;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
